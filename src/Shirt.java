@@ -1,8 +1,8 @@
 public class Shirt {
-  public int shirtID = 555;
-  public String description = "shirt description 1";
+  public int shirtID = 0;
+  public String description = "-description require-";
   public char colorCode = 'U';
-  public double price = 45.99;
+  public double price = 0.0;
   public int quantityInStock = 0;
   
   public void displayShirtInformation() {
